@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Igra</title>
+</head>
+
+<body>
+    <section>
+        <button id="btnStart" class="btn" onclick="zapocniIgru()">Zapocni igru</button>
+        <h2 id="textInfo">Ponovi redosled slova</h2>
+        <p>Preostalo Vreme: s</p>
+        <div class="main-box">
+        </div>
+        <button style="visibility: hidden;" id="btnAgain" class="btn" onclick="restratuj()">Igraj ponovo</button>
+    </section>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
